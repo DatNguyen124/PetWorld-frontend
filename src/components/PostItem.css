@@ -1,0 +1,266 @@
+.post-image {
+  margin-left: -9px;
+  width: 62px;
+  position: relative;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  debug_commit: 448091;
+}
+.frame-textarea,
+.post-image-wrapper {
+  border: 1px solid var(--color-black);
+  height: 169px;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.post-image-wrapper {
+  width: 45px;
+  flex-shrink: 0;
+  padding: var(--padding-43xl) 0;
+  z-index: 1;
+}
+.frame-textarea {
+  background-color: transparent;
+  width: auto;
+  outline: 0;
+  flex: 0.4911;
+  padding: var(--padding-43xl) var(--padding-24xl);
+  font-family: var(--font-inter);
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  min-width: 111px;
+  z-index: 2;
+}
+.alaskan-malamute-sled-dog-1-icon1 {
+  position: absolute;
+  width: calc(100% - 12px);
+  top: 27px;
+  right: 6px;
+  left: 6px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 113px;
+  object-fit: cover;
+}
+.alaskan-malamute-sled-dog-1-wrapper,
+.post-item-child1 {
+  border: 1px solid var(--color-black);
+  height: 169px;
+  box-sizing: border-box;
+  overflow: hidden;
+  min-width: 111px;
+}
+.alaskan-malamute-sled-dog-1-wrapper {
+  flex: 1;
+  position: relative;
+  z-index: 3;
+}
+.post-item-child1 {
+  background-color: transparent;
+  width: auto;
+  outline: 0;
+  flex: 0.3609;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-43xl) var(--padding-35xl);
+  font-family: var(--font-inter);
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  z-index: 4;
+}
+.petsmoj3b1 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.petsmoj3b-wrapper,
+.post-item-child2 {
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 111px;
+}
+.petsmoj3b-wrapper {
+  flex: 0.6154;
+  padding: var(--padding-43xl) var(--padding-13xl) var(--padding-43xl)
+    var(--padding-14xl);
+  min-height: 169px;
+  flex-shrink: 0;
+  z-index: 5;
+}
+.post-item-child2 {
+  background-color: transparent;
+  height: 169px;
+  width: auto;
+  outline: 0;
+  flex: 0.6095;
+  padding: var(--padding-43xl) var(--padding-14xl);
+  font-family: var(--font-inter);
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  z-index: 6;
+}
+.pending1 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.pending-container {
+  height: 169px;
+  width: 117px;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-50xl) var(--padding-base);
+  z-index: 7;
+}
+.p4,
+.pm3 {
+  margin: 0;
+}
+.pm2 {
+  flex: 1;
+  position: relative;
+  line-height: 130%;
+}
+.approve1,
+.pm-wrapper {
+  display: flex;
+  flex-shrink: 0;
+}
+.pm-wrapper {
+  width: 140px;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-41xl) var(--padding-base) var(--padding-46xl)
+    var(--padding-lg);
+  z-index: 8;
+  text-align: left;
+}
+.approve1 {
+  height: 29.2px;
+  width: 70px;
+  position: relative;
+  line-height: 130%;
+  align-items: center;
+  justify-content: center;
+  min-width: 70px;
+  z-index: 1;
+}
+.approve-button1,
+.login-frame12 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.login-frame12 {
+  height: 33.6px;
+  flex: 1;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-plum);
+  border: 0.5px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: var(--padding-12xs) var(--padding-10xs) var(--padding-10xs-4);
+}
+.approve-button1 {
+  width: 77.9px;
+  height: 32.6px;
+}
+.reject1 {
+  height: 29.2px;
+  width: 70px;
+  position: relative;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.login-frame13 {
+  height: 33.6px;
+  flex: 1;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-plum);
+  border: 0.5px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-10xs) var(--padding-10xs-4);
+}
+.reject-button1 {
+  width: 77.9px;
+  height: 32.6px;
+  flex-direction: row;
+}
+.approve-button-group,
+.post-item1,
+.reject-button1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.approve-button-group {
+  width: 99px;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-24xl) var(--padding-4xs) var(--padding-19xl)
+    var(--padding-3xs);
+  gap: var(--gap-lg-4);
+  z-index: 9;
+}
+.post-item1 {
+  align-self: stretch;
+  flex-direction: row;
+  row-gap: 20px;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .petsmoj3b-wrapper {
+    min-height: auto;
+  }
+  .post-item1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frame-textarea,
+  .petsmoj3b-wrapper,
+  .post-item-child1,
+  .post-item-child2 {
+    flex: 1;
+  }
+}

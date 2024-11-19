@@ -1,0 +1,102 @@
+.image-icon,
+.mix-colour-pug {
+  position: relative;
+  max-width: 100%;
+}
+.image-icon {
+  align-self: stretch;
+  height: 380px;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.mix-colour-pug {
+  width: 323px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+}
+.reference-id-peptdyztjt {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 130%;
+}
+.mix-colour-pug-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  max-width: 100%;
+}
+.div10 {
+  width: 145px;
+  position: relative;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.frame-parent17 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-77xl);
+  max-width: 100%;
+}
+.dog-inner,
+.dog2 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.dog-inner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-base) 0 var(--padding-xl);
+}
+.dog2 {
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-200);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-15xl);
+  gap: var(--gap-mid);
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 900px) {
+  .div10,
+  .mix-colour-pug {
+    font-size: var(--font-size-5xl);
+    line-height: 31px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .mix-colour-pug {
+    font-size: var(--font-size-lg);
+    line-height: 23px;
+  }
+  .reference-id-peptdyztjt {
+    font-size: var(--font-size-base);
+    line-height: 21px;
+  }
+  .div10 {
+    font-size: var(--font-size-lg);
+    line-height: 23px;
+  }
+  .frame-parent17 {
+    gap: var(--gap-29xl);
+  }
+}

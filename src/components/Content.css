@@ -1,0 +1,176 @@
+.about-header,
+.about-us13 {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.about-us13 {
+  margin: 0;
+  width: 350px;
+  position: relative;
+  font-size: inherit;
+  line-height: 130%;
+  font-weight: 700;
+  font-family: inherit;
+  align-items: center;
+  flex-shrink: 0;
+}
+.about-header {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  box-sizing: border-box;
+}
+.explore-petworld- {
+  align-self: stretch;
+  position: relative;
+  line-height: 130%;
+}
+.at-petworld-our,
+.if-youre-looking,
+.our-site-is,
+.we-take-the {
+  margin: 0;
+}
+.at-petworld-our-container {
+  align-self: stretch;
+  position: relative;
+  line-height: 130%;
+}
+.pawprint-1-icon13,
+.pawprint-2-icon3,
+.pawprint-3-icon,
+.pawprint-4-icon,
+.pawprint-5-icon,
+.pawprint-6-icon {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  object-fit: cover;
+  min-height: 48px;
+}
+.pawprint-1-parent,
+.pawprint-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.pawprint-1-parent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.pawprint-row {
+  width: 1241px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lgi);
+  box-sizing: border-box;
+}
+.about-body,
+.about-us14 {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.about-body {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-61xl);
+  max-width: 100%;
+  text-align: justify;
+  font-size: var(--font-size-6xl);
+}
+.about-us14 {
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gainsboro-100);
+  overflow: hidden;
+  align-items: flex-end;
+  padding: var(--padding-mini) var(--padding-45xl) var(--padding-28xl);
+  box-sizing: border-box;
+  gap: var(--gap-109xl);
+  font-size: var(--font-size-11xl);
+}
+.about-content,
+.about-us14,
+.content2 {
+  display: flex;
+  max-width: 100%;
+}
+.about-content {
+  width: 1395px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-98xl);
+}
+.content2 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1275px) {
+  .about-us14 {
+    gap: var(--gap-45xl);
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .about-us13 {
+    font-size: var(--font-size-13xl);
+    line-height: 42px;
+  }
+  .explore-petworld- {
+    font-size: var(--font-size-5xl);
+    line-height: 31px;
+  }
+  .pawprint-1-parent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about-body {
+    gap: var(--gap-21xl);
+  }
+  .about-us14 {
+    gap: var(--gap-13xl);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+  .about-content {
+    gap: var(--gap-39xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-us13 {
+    font-size: var(--font-size-5xl);
+    line-height: 31px;
+  }
+  .explore-petworld- {
+    font-size: var(--font-size-lg);
+    line-height: 23px;
+  }
+  .at-petworld-our-container {
+    font-size: var(--font-size-xl);
+    line-height: 26px;
+  }
+  .about-body {
+    gap: var(--gap-xl);
+  }
+  .about-us14 {
+    gap: var(--gap-base);
+  }
+  .about-content {
+    gap: var(--gap-10xl);
+  }
+}

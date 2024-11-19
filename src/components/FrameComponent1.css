@@ -1,0 +1,159 @@
+.dogs1,
+.image-icon1 {
+  position: relative;
+  max-width: 100%;
+}
+.dogs1 {
+  width: 454px;
+  line-height: 46px;
+  display: flex;
+  align-items: center;
+}
+.image-icon1 {
+  align-self: stretch;
+  height: 380px;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.alaska,
+.reference-id-petsmoj3b {
+  position: relative;
+  line-height: 130%;
+}
+.alaska {
+  width: 145px;
+  display: flex;
+  align-items: center;
+}
+.reference-id-petsmoj3b {
+  align-self: stretch;
+  font-size: var(--font-size-xl);
+}
+.beautiful-alaska-with {
+  flex: 1;
+  position: relative;
+  line-height: 130%;
+  display: inline-block;
+  max-width: 100%;
+}
+.alaska-description {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+}
+.div11 {
+  width: 145px;
+  position: relative;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.alaska-parent,
+.dog-child {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.alaska-parent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.dog-child {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-base) 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.dog-group,
+.dog3,
+.dogs-parent {
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.dog3 {
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-200);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-15xl);
+  box-sizing: border-box;
+  gap: var(--gap-mid);
+}
+.dog-group,
+.dogs-parent {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.dog-group {
+  display: grid;
+  flex-direction: row;
+  gap: var(--gap-29xl);
+  grid-template-columns: repeat(4, minmax(285px, 1fr));
+  font-size: var(--font-size-11xl);
+}
+.dogs-parent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-19xl);
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1625px) {
+  .dog-group {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(285px, 494px));
+  }
+}
+@media screen and (max-width: 900px) {
+  .dogs1 {
+    font-size: var(--font-size-9xl);
+    line-height: 36px;
+  }
+  .alaska,
+  .div11 {
+    font-size: var(--font-size-5xl);
+    line-height: 31px;
+  }
+  .dog-group {
+    gap: var(--gap-5xl);
+    grid-template-columns: minmax(285px, 1fr);
+  }
+  .dogs-parent {
+    gap: var(--gap-lgi);
+  }
+}
+@media screen and (max-width: 450px) {
+  .dogs1 {
+    font-size: var(--font-size-2xl);
+    line-height: 27px;
+  }
+  .alaska {
+    font-size: var(--font-size-lg);
+    line-height: 23px;
+  }
+  .beautiful-alaska-with,
+  .reference-id-petsmoj3b {
+    font-size: var(--font-size-base);
+    line-height: 21px;
+  }
+  .div11 {
+    font-size: var(--font-size-lg);
+    line-height: 23px;
+  }
+}

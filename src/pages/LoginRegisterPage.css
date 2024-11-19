@@ -1,0 +1,131 @@
+@keyframes shadow-inset-center {
+  0% {
+    box-shadow: inset 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: inset 0 0 14px 0 rgb(0 0 0/50%);
+  }
+}
+.new-customer1 {
+  position: absolute;
+  top: 7px;
+  right: 192px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 216px;
+  height: 60px;
+}
+.create-account-frame {
+  width: 201px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-plum);
+  border: 0.5px solid var(--color-black);
+  box-sizing: border-box;
+  height: 49px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.creat-account {
+  width: 184px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0.8px;
+  right: 8px;
+  font-size: var(--font-size-xl);
+  line-height: 130%;
+  display: flex;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 46px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.create-account-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 226px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.create-account-button:hover {
+  animation: 1s ease 0s infinite normal none shadow-inset-center;
+  opacity: 1;
+}
+.create-account-and {
+  margin-block-start: 0;
+  margin-block-end: 5px;
+}
+.access-your-order,
+.check-out-faster,
+.save-multiple-shipping,
+.track-new-order {
+  margin-bottom: 0;
+}
+.check-out-faster-save-multiple {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-5xl);
+}
+.create-account-and-container1 {
+  width: 100%;
+}
+.create-account-and-container {
+  position: absolute;
+  top: 61px;
+  left: calc(50% - 180px);
+  font-size: var(--font-size-lg);
+  line-height: 130%;
+  color: #777;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 360px;
+  height: 149px;
+}
+.new-customer {
+  position: absolute;
+  top: 473px;
+  left: 1053px;
+  background-color: var(--color-whitesmoke-100);
+  width: 436px;
+  height: 297px;
+  overflow: hidden;
+}
+.sign-in {
+  position: absolute;
+  top: 294px;
+  right: 885px;
+  font-size: var(--font-size-21xl);
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 60px;
+}
+.login-register-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 2000px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

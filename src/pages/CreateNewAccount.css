@@ -1,0 +1,22 @@
+.create-account {
+  position: absolute;
+  top: 315px;
+  right: 770px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 381px;
+  height: 60px;
+}
+.create-new-account {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 2000px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

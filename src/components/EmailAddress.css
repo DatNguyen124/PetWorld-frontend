@@ -1,0 +1,35 @@
+.username-frame1 {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 45.5px;
+  left: calc(50% - 219px);
+}
+.email-address2,
+.required11 {
+  position: absolute;
+  top: 0;
+  right: 313px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 60px;
+}
+.required11 {
+  top: 3px;
+  right: 0;
+  font-size: var(--font-size-xs);
+}
+.email-address1 {
+  position: absolute;
+  top: 12px;
+  left: calc(50% - 477.5px);
+  width: 463px;
+  height: 94px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray);
+  font-family: var(--font-inter);
+}

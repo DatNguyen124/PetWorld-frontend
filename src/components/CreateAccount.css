@@ -1,0 +1,369 @@
+.login-frame11 {
+  position: absolute;
+  top: -0.5px;
+  left: -0.5px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-plum);
+  border: 0.5px solid var(--color-black);
+  box-sizing: border-box;
+  width: 222px;
+  height: 49px;
+  overflow: hidden;
+}
+.create-account2 {
+  position: absolute;
+  top: 0;
+  right: 9px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 202px;
+  height: 48px;
+}
+.create-account-button4 {
+  position: absolute;
+  top: 563px;
+  left: 690px;
+  width: 221px;
+  height: 48px;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.password-frame1 {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 40.5px;
+  left: calc(50% - 210px);
+}
+.password2,
+.required12 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 60px;
+}
+.password2 {
+  right: 331px;
+  font-size: var(--font-size-lg);
+}
+.password1 {
+  position: absolute;
+  top: 100px;
+  left: calc(50% - 495.5px);
+  width: 481px;
+  height: 89px;
+}
+.confirm-password,
+.required13 {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 60px;
+}
+.confirm-password {
+  top: 0;
+  right: 269px;
+  font-size: var(--font-size-lg);
+  width: 201px;
+}
+.confirmpass-frame {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 45.5px;
+  left: calc(50% - 215.5px);
+}
+.confirm-pass {
+  position: absolute;
+  top: 178px;
+  right: 813px;
+  width: 470px;
+  height: 94px;
+}
+.first-name5,
+.required14 {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 60px;
+}
+.first-name5 {
+  top: 0;
+  right: 301px;
+  font-size: var(--font-size-lg);
+  width: 201px;
+}
+.firstname-frame {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 45.5px;
+  left: calc(50% - 199.5px);
+}
+.first-name4 {
+  position: absolute;
+  top: 261px;
+  right: 813px;
+  width: 502px;
+  height: 94px;
+}
+.last-name37,
+.required15 {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 60px;
+}
+.last-name37 {
+  top: 0;
+  right: 301px;
+  font-size: var(--font-size-lg);
+  width: 201px;
+}
+.lastname-frame {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 45.5px;
+  left: calc(50% - 199.5px);
+}
+.last-name36 {
+  position: absolute;
+  top: 344px;
+  right: 813px;
+  width: 502px;
+  height: 94px;
+}
+.phone-number1,
+.required16 {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 60px;
+}
+.phone-number1 {
+  top: 0;
+  right: 284px;
+  font-size: var(--font-size-lg);
+  width: 201px;
+}
+.phone-frame {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 45.5px;
+  left: calc(50% - 208px);
+}
+.phone-number {
+  position: absolute;
+  top: 427px;
+  right: 813px;
+  width: 485px;
+  height: 94px;
+}
+.password-frame2 {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 43.5px;
+  left: calc(50% - 198.5px);
+}
+.address-line-21 {
+  position: absolute;
+  top: 0;
+  right: 264px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 60px;
+}
+.address-line-2 {
+  position: absolute;
+  top: 100px;
+  left: calc(50% + 57.5px);
+  width: 414px;
+  height: 92px;
+  font-size: var(--font-size-lg);
+}
+.city1,
+.required17 {
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+.required17 {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  width: 150px;
+}
+.city1 {
+  top: 0;
+  right: 330px;
+  font-size: var(--font-size-lg);
+  width: 201px;
+}
+.city,
+.city1,
+.city2 {
+  position: absolute;
+}
+.city2 {
+  border: 0;
+  background-color: transparent;
+  top: 45.5px;
+  left: calc(50% - 185px);
+}
+.city {
+  top: 181px;
+  right: 282px;
+  width: 531px;
+  height: 94px;
+}
+.required18,
+.state-province1 {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 60px;
+}
+.state-province1 {
+  top: 0;
+  right: 279px;
+  font-size: var(--font-size-lg);
+  width: 201px;
+}
+.stateprovince {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 45.5px;
+  left: calc(50% - 210.5px);
+}
+.state-province {
+  position: absolute;
+  top: 264px;
+  right: 282px;
+  width: 480px;
+  height: 94px;
+}
+.postcode1,
+.required19 {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 60px;
+}
+.postcode1 {
+  top: 0;
+  right: 307px;
+  font-size: var(--font-size-lg);
+  width: 201px;
+}
+.postcode-frame {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 45.5px;
+  left: calc(50% - 196.5px);
+}
+.postcode,
+.required20 {
+  position: absolute;
+  top: 430px;
+  right: 282px;
+  width: 508px;
+  height: 94px;
+}
+.required20 {
+  top: 3px;
+  right: 0;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 60px;
+}
+.country-frame,
+.country1 {
+  position: absolute;
+  font-size: var(--font-size-lg);
+}
+.country1 {
+  top: 0;
+  right: 313px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 201px;
+  height: 60px;
+}
+.country-frame {
+  top: 42.5px;
+  left: calc(50% - 191.5px);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+}
+.country {
+  position: absolute;
+  top: 347px;
+  right: 282px;
+  width: 514px;
+  height: 86px;
+}
+.create-account1 {
+  position: absolute;
+  top: 393px;
+  left: 161px;
+  background-color: var(--color-white);
+  width: 1597px;
+  height: 1030px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkslategray);
+  font-family: var(--font-inter);
+}

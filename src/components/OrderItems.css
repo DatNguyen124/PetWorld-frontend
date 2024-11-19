@@ -1,0 +1,317 @@
+.items,
+.items-label {
+  display: flex;
+  justify-content: center;
+}
+.items {
+  margin: 0;
+  width: 227px;
+  position: relative;
+  font-size: inherit;
+  line-height: 33px;
+  font-weight: 700;
+  font-family: inherit;
+  align-items: center;
+  flex-shrink: 0;
+}
+.items-label {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-2xl);
+  text-align: center;
+}
+.british-shorthair-1-2-icon1,
+.icon3 {
+  flex: 1;
+  position: relative;
+  object-fit: cover;
+}
+.british-shorthair-1-2-icon1 {
+  width: 157px;
+  max-height: 100%;
+}
+.icon3 {
+  height: 101px;
+  max-width: 100%;
+  overflow: hidden;
+}
+.item-placeholder {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 var(--padding-11xs);
+}
+.alaskan-malamute-sled-dog-2-icon1 {
+  height: 113px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.alaskan-malamute-sled-dog-2-wrapper,
+.item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.alaskan-malamute-sled-dog-2-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-10xs);
+}
+.item {
+  height: 396px;
+  width: 161px;
+  flex-direction: column;
+  gap: var(--gap-15xl);
+  min-width: 161px;
+}
+.british-shorthair-cat1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 31px;
+}
+.contact-849483893213,
+.seller-jack-white2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 25px;
+  white-space: pre-wrap;
+}
+.item-empty {
+  width: 121px;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.item-info-fields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.mix-colour-pug2 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 31px;
+}
+.contact-849483893214,
+.seller-jack-white3 {
+  align-self: stretch;
+  position: relative;
+  line-height: 25px;
+  white-space: pre-wrap;
+}
+.b1 {
+  width: 121px;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.item-info-fields1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.alaska2 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 31px;
+}
+.seller-john-weak1 {
+  z-index: 1;
+}
+.contact-849483893215,
+.seller-john-weak1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 25px;
+  white-space: pre-wrap;
+}
+.b2 {
+  width: 121px;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.item-info,
+.item-info-fields2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.item-info-fields2 {
+  align-self: stretch;
+  gap: var(--gap-12xs);
+}
+.item-info {
+  flex: 1;
+  gap: var(--gap-9xl);
+  min-width: 161px;
+}
+.item-list,
+.items-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.items-container {
+  flex: 1;
+  justify-content: center;
+  gap: var(--gap-sm);
+}
+.item-list {
+  width: 443px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-lg);
+}
+.subtotal1,
+.total-empty {
+  width: 161px;
+  position: relative;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.subtotal1 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.total-empty {
+  text-align: right;
+  white-space: nowrap;
+}
+.total-fields {
+  align-self: stretch;
+  border-bottom: 1px solid var(--color-black);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-7xl) 0 var(--padding-4xl);
+  gap: var(--gap-xl);
+}
+.b3,
+.total-usd {
+  width: 161px;
+  position: relative;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.total-usd {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.b3 {
+  text-align: right;
+  white-space: nowrap;
+}
+.order-items,
+.order-total,
+.total-fields1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.total-fields1 {
+  border-bottom: 1px solid var(--color-black);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-7xl) 0 var(--padding-4xl);
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.order-items,
+.order-total {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.order-items {
+  gap: var(--gap-smi);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 850px) {
+  .item {
+    flex: 1;
+  }
+  .items-container,
+  .total-fields,
+  .total-fields1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .items {
+    font-size: var(--font-size-xl);
+    line-height: 26px;
+  }
+  .british-shorthair-cat1 {
+    font-size: var(--font-size-lg);
+    line-height: 23px;
+  }
+  .item-empty {
+    font-size: var(--font-size-xl);
+    line-height: 24px;
+  }
+  .mix-colour-pug2 {
+    font-size: var(--font-size-lg);
+    line-height: 23px;
+  }
+  .b1 {
+    font-size: var(--font-size-xl);
+    line-height: 24px;
+  }
+  .alaska2 {
+    font-size: var(--font-size-lg);
+    line-height: 23px;
+  }
+  .b2 {
+    font-size: var(--font-size-xl);
+    line-height: 24px;
+  }
+  .b3,
+  .subtotal1,
+  .total-empty,
+  .total-usd {
+    font-size: var(--font-size-xl);
+    line-height: 26px;
+  }
+}

@@ -1,0 +1,119 @@
+@keyframes shadow-inset-center {
+  0% {
+    box-shadow: inset 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: inset 0 0 14px 0 rgb(0 0 0/50%);
+  }
+}
+.password-frame,
+.username-frame {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 46.5px;
+  left: calc(50% - 187.5px);
+}
+.password-frame {
+  top: 129.5px;
+}
+.email-address,
+.password {
+  position: absolute;
+  top: 0;
+  right: 268px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 60px;
+}
+.password {
+  top: 87px;
+  right: 286px;
+}
+.login-frame10 {
+  width: 185px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-plum);
+  border: 0.5px solid var(--color-black);
+  box-sizing: border-box;
+  height: 49px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.login-button1,
+.sign-in2 {
+  position: absolute;
+  display: flex;
+}
+.sign-in2 {
+  width: 155px;
+  margin: 0 !important;
+  top: 0;
+  right: 15px;
+  font-size: var(--font-size-xl);
+  line-height: 130%;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.login-button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 214px;
+  left: 252px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.login-button1:hover {
+  animation: 1s ease 0s infinite normal none shadow-inset-center;
+  opacity: 1;
+}
+.forgot-your-password {
+  position: relative;
+  line-height: 130%;
+}
+.forgotpass {
+  position: absolute;
+  top: 213px;
+  left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  font-size: var(--font-size-smi);
+  color: var(--color-black);
+}
+.sign-in1 {
+  position: absolute;
+  top: 489px;
+  left: calc(50% - 499px);
+  width: 436px;
+  height: 262px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray);
+  font-family: var(--font-inter);
+}
+
+.btn-custom {
+  background-color: #d891c3;
+  border: 1px solid black;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+}

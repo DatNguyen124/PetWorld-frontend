@@ -1,0 +1,143 @@
+.user-1-icon {
+  height: 130px;
+  width: 130px;
+  position: relative;
+  object-fit: cover;
+}
+.user-1-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-18xl) 0 var(--padding-19xl);
+}
+.user-name {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 33px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.user-name-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.user-info {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-base) 0 var(--padding-lg);
+}
+.user-container {
+  width: 354px;
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-93xl) var(--padding-40xl) var(--padding-946xl)
+    var(--padding-37xl);
+  box-sizing: border-box;
+  gap: var(--gap-48xl);
+  max-width: 100%;
+}
+.pet-list-container-wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-92xl) 0 0;
+  min-width: 811px;
+  max-width: 100%;
+}
+.managing-pets,
+.pet-list-container-wrapper,
+.user-container-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.user-container-parent {
+  width: 1657.1px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-17xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.managing-pets {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 var(--padding-12xs) var(--padding-277xl) var(--padding-104xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .user-container {
+    padding-top: var(--padding-54xl);
+    padding-bottom: var(--padding-608xl);
+    box-sizing: border-box;
+  }
+  .pet-list-container-wrapper {
+    padding-top: var(--padding-53xl);
+    box-sizing: border-box;
+  }
+  .managing-pets {
+    padding-left: var(--padding-42xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .user-container {
+    padding-top: var(--padding-28xl);
+    padding-bottom: var(--padding-389xl);
+    box-sizing: border-box;
+  }
+  .pet-list-container-wrapper {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .pet-list-container-wrapper {
+    padding-top: var(--padding-28xl);
+    box-sizing: border-box;
+  }
+  .user-container-parent {
+    gap: var(--gap-lg);
+  }
+  .managing-pets {
+    padding-left: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .user-name {
+    font-size: var(--font-size-xl);
+    line-height: 26px;
+  }
+  .user-container {
+    gap: var(--gap-14xl);
+    padding: var(--padding-12xl) var(--padding-xl) var(--padding-246xl);
+    box-sizing: border-box;
+  }
+}
+.img-fixed {
+  width: 200px; /* Set the width you want */
+  height: auto; /* Maintain aspect ratio */
+}

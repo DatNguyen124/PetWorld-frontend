@@ -1,0 +1,121 @@
+.alaskan-malamute-sled-dog-1-icon {
+  position: absolute;
+  width: calc(100% - 12px);
+  top: 27px;
+  right: 6px;
+  left: 6px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 113px;
+  object-fit: cover;
+}
+.pet-breed-row,
+.pet-origin {
+  border: 1px solid var(--color-black);
+  height: 169px;
+  box-sizing: border-box;
+  overflow: hidden;
+  min-width: 168px;
+  max-width: 171px;
+}
+.pet-breed-row {
+  flex: 1;
+  position: relative;
+  z-index: 10;
+}
+.pet-origin {
+  background-color: transparent;
+  width: auto;
+  outline: 0;
+  flex: 0.3609;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-43xl) var(--padding-35xl);
+  font-family: var(--font-inter);
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  z-index: 11;
+}
+.petsmoj3b {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.pet-identifier,
+.row-item {
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  justify-content: flex-start;
+  min-width: 168px;
+  max-width: 171px;
+}
+.pet-identifier {
+  flex: 0.6154;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-43xl) var(--padding-13xl) var(--padding-43xl)
+    var(--padding-14xl);
+  min-height: 169px;
+  flex-shrink: 0;
+  z-index: 12;
+}
+.row-item {
+  background-color: transparent;
+  height: 169px;
+  width: auto;
+  outline: 0;
+  flex: 0.6095;
+  padding: var(--padding-43xl) var(--padding-14xl);
+  z-index: 13;
+}
+.row-item,
+.row-item-two,
+.row-items {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.row-item-two {
+  border: 1px solid var(--color-black);
+  background-color: transparent;
+  height: 169px;
+  width: auto;
+  outline: 0;
+  flex: 0.6095;
+  box-sizing: border-box;
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-43xl) var(--padding-14xl);
+  min-width: 168px;
+  max-width: 171px;
+  z-index: 14;
+}
+.row-items {
+  align-self: stretch;
+  justify-content: center;
+  row-gap: 20px;
+  text-align: center;
+}
+@media screen and (max-width: 750px) {
+  .pet-identifier {
+    min-height: auto;
+  }
+  .row-items {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .pet-identifier,
+  .pet-origin,
+  .row-item,
+  .row-item-two {
+    flex: 1;
+  }
+}

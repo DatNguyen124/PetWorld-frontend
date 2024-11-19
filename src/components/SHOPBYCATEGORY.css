@@ -1,0 +1,174 @@
+.pawprint-2-icon1 {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 41px;
+  height: 41px;
+  object-fit: cover;
+}
+.popular-pet-products1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 421px;
+  height: 71px;
+}
+.popular-pet-products {
+  position: absolute;
+  top: 397px;
+  left: 733px;
+  width: 454px;
+  height: 71px;
+}
+.shop-by-category-child img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+  position: flex;
+}
+
+.shop-by-category-child1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+  position: flex;
+}
+
+.shop-by-category-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+  position: flex;
+}
+
+.shop-by-category-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+  position: flex;
+}
+.shop-by-category2 {
+  position: absolute;
+  top: 0;
+  right: 430px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 421px;
+  height: 71px;
+}
+.dog-icon {
+  position: absolute;
+  top: 101px;
+  left: 0;
+  border-radius: var(--br-81xl);
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.chjpdmf0zs9sci9pbwfnzxmvd2vic2-icon {
+  position: absolute;
+  top: 3px;
+  left: 27px;
+  width: 125px;
+  height: 173px;
+  object-fit: cover;
+}
+.cat2 {
+  position: absolute;
+  top: 101px;
+  left: 367px;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-dimgray);
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+}
+.fish-koi-common-goldfish-black-icon {
+  position: absolute;
+  top: 27px;
+  left: -6px;
+  width: 191px;
+  height: 125px;
+  object-fit: cover;
+}
+.fish2 {
+  position: absolute;
+  top: 101px;
+  left: 734px;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-dimgray);
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+}
+.parrot-bird-isolated-on-transp-icon {
+  position: absolute;
+  top: 8px;
+  left: 17px;
+  width: 146px;
+  height: 146px;
+  object-fit: cover;
+}
+.bird2 {
+  position: absolute;
+  top: 101px;
+  left: 1101px;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-dimgray);
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+}
+.shop-by-category1 {
+  position: absolute;
+  top: 17px;
+  right: 319px;
+  width: 1281px;
+  height: 281px;
+  font-size: var(--font-size-16xl);
+}
+.shop-by-category-child,
+.shop-by-category-child1,
+.shop-by-category-inner,
+.shop-by-category-item {
+  position: absolute;
+  top: 493px;
+  left: 244px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro);
+  width: 600px;
+  height: 600px;
+  overflow: hidden;
+}
+.shop-by-category-child1,
+.shop-by-category-inner,
+.shop-by-category-item {
+  left: 1110px;
+}
+.shop-by-category-child1,
+.shop-by-category-inner {
+  top: 1245px;
+  left: 244px;
+}
+.shop-by-category-child1 {
+  left: 1110px;
+}
+.shop-by-category {
+  position: absolute;
+  top: 1000px;
+  left: 0;
+  width: 1919px;
+  height: 2000px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

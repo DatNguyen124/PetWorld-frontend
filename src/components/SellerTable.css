@@ -1,0 +1,233 @@
+.empty-cell3 {
+  margin-left: -9px;
+  width: 62px;
+  position: relative;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  debug_commit: 448091;
+}
+.seller-name2,
+.table-header2 {
+  border: 1px solid var(--color-black);
+  height: 169px;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.table-header2 {
+  width: 45px;
+  flex-shrink: 0;
+  padding: var(--padding-43xl) 0;
+  z-index: 1;
+}
+.seller-name2 {
+  background-color: transparent;
+  width: auto;
+  outline: 0;
+  flex: 0.4911;
+  padding: var(--padding-43xl) var(--padding-24xl);
+  font-family: var(--font-inter);
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  min-width: 111px;
+  z-index: 2;
+}
+.alaskan-malamute-sled-dog-1-icon2 {
+  position: absolute;
+  width: calc(100% - 12px);
+  top: 27px;
+  right: 6px;
+  left: 6px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 113px;
+  object-fit: cover;
+}
+.breed,
+.location {
+  border: 1px solid var(--color-black);
+  height: 169px;
+  box-sizing: border-box;
+  overflow: hidden;
+  min-width: 111px;
+}
+.breed {
+  flex: 1;
+  position: relative;
+  z-index: 3;
+}
+.location {
+  background-color: transparent;
+  width: auto;
+  outline: 0;
+  flex: 0.3609;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-43xl) var(--padding-35xl);
+  font-family: var(--font-inter);
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  z-index: 4;
+}
+.petsmoj3b2 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.price4,
+.reference {
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 111px;
+}
+.reference {
+  flex: 0.6154;
+  padding: var(--padding-43xl) var(--padding-13xl) var(--padding-43xl)
+    var(--padding-14xl);
+  min-height: 169px;
+  flex-shrink: 0;
+  z-index: 5;
+}
+.price4 {
+  background-color: transparent;
+  height: 169px;
+  width: auto;
+  outline: 0;
+  flex: 0.6095;
+  padding: var(--padding-43xl) var(--padding-14xl);
+  font-family: var(--font-inter);
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  z-index: 6;
+}
+.approved {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 83px;
+}
+.status2 {
+  height: 169px;
+  width: 117px;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-50xl) var(--padding-base);
+  z-index: 7;
+}
+.p5,
+.pm5 {
+  margin: 0;
+}
+.pm4 {
+  flex: 1;
+  position: relative;
+  line-height: 130%;
+}
+.remove3,
+.time1 {
+  display: flex;
+  flex-shrink: 0;
+}
+.time1 {
+  width: 140px;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-41xl) var(--padding-base) var(--padding-46xl)
+    var(--padding-lg);
+  z-index: 8;
+  text-align: left;
+}
+.remove3 {
+  height: 29.2px;
+  width: 70px;
+  position: relative;
+  line-height: 130%;
+  align-items: center;
+  justify-content: center;
+  min-width: 70px;
+  z-index: 1;
+}
+.login-frame14 {
+  height: 33.6px;
+  flex: 1;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-plum);
+  border: 0.5px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-10xs) var(--padding-10xs-4);
+}
+.edit-button1 {
+  height: 32.6px;
+  width: 77.9px;
+}
+.actions,
+.edit-button1,
+.seller-table1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.actions {
+  width: 99px;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-47xl) var(--padding-4xs) var(--padding-47xl)
+    var(--padding-3xs);
+  z-index: 9;
+}
+.seller-table1 {
+  align-self: stretch;
+  row-gap: 20px;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .reference {
+    min-height: auto;
+  }
+  .seller-table1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .location,
+  .price4,
+  .reference,
+  .seller-name2 {
+    flex: 1;
+  }
+}

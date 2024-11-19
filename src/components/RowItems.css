@@ -1,0 +1,121 @@
+.icon2 {
+  position: absolute;
+  width: calc(100% - 14px);
+  top: 33px;
+  right: 7px;
+  left: 7px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 101px;
+  object-fit: cover;
+}
+.row-items-child,
+.wrapper1 {
+  border: 1px solid var(--color-black);
+  height: 169px;
+  box-sizing: border-box;
+  overflow: hidden;
+  min-width: 168px;
+  max-width: 171px;
+}
+.wrapper1 {
+  flex: 1;
+  position: relative;
+  z-index: 6;
+}
+.row-items-child {
+  background-color: transparent;
+  width: auto;
+  outline: 0;
+  flex: 0.8935;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-40xl) var(--padding-4xs);
+  font-family: var(--font-inter);
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  z-index: 7;
+}
+.peptdyztjt2 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.peptdyztjt-frame,
+.row-items-item {
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  justify-content: flex-start;
+  min-width: 168px;
+  max-width: 171px;
+}
+.peptdyztjt-frame {
+  flex: 0.6154;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-43xl) var(--padding-13xl) var(--padding-43xl)
+    var(--padding-14xl);
+  min-height: 169px;
+  flex-shrink: 0;
+  z-index: 8;
+}
+.row-items-item {
+  background-color: transparent;
+  height: 169px;
+  width: auto;
+  outline: 0;
+  flex: 0.6095;
+  padding: var(--padding-43xl) var(--padding-14xl);
+  z-index: 9;
+}
+.row-items-inner,
+.row-items-item,
+.row-items1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.row-items-inner {
+  border: 1px solid var(--color-black);
+  background-color: transparent;
+  height: 169px;
+  width: auto;
+  outline: 0;
+  flex: 0.6095;
+  box-sizing: border-box;
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-43xl) var(--padding-14xl);
+  min-width: 168px;
+  max-width: 171px;
+  z-index: 10;
+}
+.row-items1 {
+  align-self: stretch;
+  justify-content: center;
+  row-gap: 20px;
+  text-align: center;
+}
+@media screen and (max-width: 750px) {
+  .peptdyztjt-frame {
+    min-height: auto;
+  }
+  .row-items1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .peptdyztjt-frame,
+  .row-items-child,
+  .row-items-inner,
+  .row-items-item {
+    flex: 1;
+  }
+}

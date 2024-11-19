@@ -1,0 +1,207 @@
+.petworld-is-one,
+.petworld11 {
+  position: absolute;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+}
+.petworld11 {
+  top: 19px;
+  left: 0;
+  justify-content: center;
+  width: 270px;
+  height: 95px;
+}
+.petworld-is-one {
+  top: 98px;
+  left: 64px;
+  font-size: var(--font-size-7xl);
+  font-family: var(--font-josefin-sans);
+  text-align: left;
+  width: 463px;
+  height: 247px;
+}
+.intro {
+  position: absolute;
+  top: 0;
+  left: 217px;
+  width: 755px;
+  height: 615px;
+  overflow: hidden;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+}
+.birds,
+.cats,
+.dogs,
+.fish3,
+.quick-links1 {
+  position: absolute;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 95px;
+}
+.quick-links1 {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+}
+.birds,
+.cats,
+.dogs,
+.fish3 {
+  top: 60px;
+  left: -45px;
+  font-weight: 600;
+}
+.birds,
+.cats,
+.fish3 {
+  top: 120px;
+}
+.birds,
+.fish3 {
+  top: 180px;
+}
+.fish3 {
+  top: 240px;
+}
+.quick-links {
+  position: absolute;
+  top: 19px;
+  left: 1129px;
+  width: 609px;
+  height: 485px;
+  overflow: hidden;
+}
+.help-support,
+.track-your-order {
+  position: absolute;
+  left: 0;
+  width: 270px;
+}
+.help-support {
+  top: 28px;
+  font-size: var(--font-size-11xl);
+  line-height: 130%;
+  display: flex;
+  color: var(--color-black);
+  align-items: center;
+  justify-content: center;
+}
+.track-your-order {
+  top: 60px;
+}
+.contact-us,
+.delivery-return,
+.track-your-order {
+  line-height: 130%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95px;
+}
+.delivery-return {
+  position: absolute;
+  top: 120px;
+  left: -45px;
+  width: 379px;
+}
+.contact-us {
+  top: 177px;
+  left: -32px;
+  width: 270px;
+}
+.contact-us,
+.faqs,
+.helpspt {
+  position: absolute;
+}
+.faqs {
+  top: 243px;
+  left: -65px;
+  line-height: 130%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 95px;
+}
+.helpspt {
+  top: 504px;
+  left: 269px;
+  width: 755px;
+  height: 485px;
+  overflow: hidden;
+}
+.div9,
+.get-in-touch1 {
+  position: absolute;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 95px;
+}
+.get-in-touch1 {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+}
+.div9 {
+  top: 58px;
+  left: 33px;
+  font-weight: 600;
+}
+.image-2-icon,
+.image-3-icon {
+  position: absolute;
+  top: 96px;
+  left: 44px;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+.image-3-icon {
+  top: 143px;
+  height: 29.8px;
+}
+.servicepetworldcom {
+  position: absolute;
+  top: 110px;
+  left: 33px;
+  line-height: 130%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 379px;
+  height: 95px;
+}
+.end-page,
+.get-in-touch {
+  position: absolute;
+  top: 504px;
+  left: 1154px;
+  width: 759px;
+  height: 521px;
+  overflow: hidden;
+}
+.end-page {
+  top: 3000px;
+  left: 0;
+  width: 1919px;
+  height: 1318px;
+  text-align: center;
+  font-size: var(--font-size-7xl);
+  color: var(--color-royalblue);
+  font-family: var(--font-inter);
+}

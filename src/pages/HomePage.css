@@ -1,0 +1,24 @@
+.dcxc355vmaabb5d-1-icon {
+  position: absolute;
+  top: 4px;
+  left: 291px;
+  width: 1398px;
+  height: 779px;
+  object-fit: cover;
+}
+.wallpaper {
+  position: absolute;
+  top: 217px;
+  left: 0;
+  background-color: rgba(225, 191, 208, 0.5);
+  width: 1919px;
+  height: 783px;
+  overflow: hidden;
+}
+.homepage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 4809px;
+  overflow: hidden;
+}

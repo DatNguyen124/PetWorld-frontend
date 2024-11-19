@@ -1,0 +1,172 @@
+.package-1-icon1 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  object-fit: cover;
+}
+.package-1-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+}
+.your-orders1 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.action-icons1,
+.frame-parent12 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent12 {
+  flex: 1;
+  gap: var(--gap-2xs);
+}
+.action-icons1 {
+  width: 158px;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.location-1-icon1 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  object-fit: cover;
+}
+.location-1-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+}
+.addresses1 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.action-icons2,
+.frame-parent13 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent13 {
+  flex: 1;
+  gap: var(--gap-xs);
+}
+.action-icons2 {
+  width: 157px;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.credit-card-1-icon1 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  object-fit: cover;
+}
+.credit-card-1-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+}
+.payment-methods1 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.action-icons3,
+.frame-parent14 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent14 {
+  flex: 1;
+  gap: var(--gap-xs);
+}
+.action-icons3 {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.pawprint-2-icon2 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  object-fit: cover;
+}
+.pawprint-2-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+}
+.manage-pets2 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.action-icons4,
+.frame-parent15 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent15 {
+  flex: 1;
+  gap: var(--gap-xs);
+}
+.action-icons4 {
+  width: 139px;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.logout-11 {
+  margin: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.logout-button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+}
+.logout1 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.logout-button-parent,
+.user-actions2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.logout-button-parent {
+  width: 139px;
+  flex-direction: row;
+}
+.user-actions2 {
+  align-self: stretch;
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,90 @@
+.last-name43 {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+}
+.last-name-label {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-sm) 0 0;
+}
+.dry-clean-5-icon {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  object-fit: cover;
+}
+.input-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xs);
+}
+.last-name44 {
+  position: relative;
+  line-height: 130%;
+  display: inline-block;
+  min-width: 31px;
+}
+.input-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.input-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xs);
+}
+.dry-clean-6-icon {
+  position: absolute;
+  top: 11px;
+  left: 3px;
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+}
+.last-name45 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.input-elements1 {
+  height: 34px;
+  flex: 1;
+  position: relative;
+}
+.input-fields,
+.last-name-label-parent {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.input-fields {
+  width: 148px;
+  flex-direction: row;
+  gap: var(--gap-5xl);
+}
+.last-name-label-parent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-3xl);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray);
+  font-family: var(--font-inter);
+}
